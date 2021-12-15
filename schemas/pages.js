@@ -39,6 +39,21 @@ export default {
         ],
       },
     },
+    //theme color
+    {
+      name: "theme_color",
+      title: "Theme Color",
+      type: "colorPicker",
+      fieldset: "settings",
+    },
+    //conditional backgroud color, when color mode is picked as color
+    {
+      name: "background_color",
+      title: "Background Color",
+      hidden: ({ parent }) => parent?.color_mode != "Color",
+      type: "colorPicker",
+      fieldset: "settings",
+    },
     //settings- layout mode
     {
       name: "layout",
