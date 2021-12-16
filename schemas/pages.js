@@ -83,7 +83,7 @@ export default {
         {
           name: "date",
           title: "Date",
-          type: "datetime",
+          type: "date",
           description: "When does the cover created?",
         },
         {
