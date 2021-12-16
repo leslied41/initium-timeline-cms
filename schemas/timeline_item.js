@@ -7,8 +7,14 @@ export default {
     {
       name: "date",
       title: "Date",
-      type: "datetime",
-      description: "When does this item created?",
+      type: "date",
+      description: "When was this item created?",
+    },
+    {
+      name: "end_date",
+      title: "End Date",
+      type: "date",
+      description: "When does this item end?",
     },
     {
       name: "description",
