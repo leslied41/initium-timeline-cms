@@ -14,6 +14,7 @@ export default {
   ],
   fields: [
     { name: "name", title: "Name", type: "string" },
+    { name: "lead", title: "Lead", type: "string" },
     {
       name: "slug",
       title: "Slug",
